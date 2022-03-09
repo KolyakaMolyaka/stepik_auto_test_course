@@ -7,9 +7,9 @@ try:
 	browser = webdriver.Chrome()
 	browser.get(link)
 
-	input1 = browser.find_elements_by_xpath('//input[text()="First name*",required]')
-	input2 = browser.find_elements_by_xpath('//input[text()="Last name*",required]')
-	input3 = browser.find_elements_by_xpath('//input[text()="Email*",required]')
+	input1 = browser.find_element_by_xpath('//input[text()="First name*",required]')
+	input2 = browser.find_element_by_xpath('//input[text()="Last name*",required]')
+	input3 = browser.find_element_by_xpath('//input[text()="Email*",required]')
 
 	input1.send_keys('SECRET')
 	input2.send_keys('SECRET')

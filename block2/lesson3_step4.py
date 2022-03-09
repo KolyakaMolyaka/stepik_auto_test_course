@@ -1,4 +1,4 @@
-t from selenium import webdriver
+from selenium import webdriver
 from math import log,sin
 
 def calc(x: str) -> str:
